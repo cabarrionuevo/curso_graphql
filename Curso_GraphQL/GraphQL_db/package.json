@@ -1,0 +1,26 @@
+{
+  "name": "graphql_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "graphql": "^14.7.0",
+    "graphql-server-express": "^1.4.0",
+    "graphql-tools": "^4.0.4",
+    "mongoose": "^5.5.10",
+    "lodash":"^4.17.11",
+    "yarn": "^1.22.19"
+  },
+  "resolutions": {
+    "graphql": "14.7.0",
+    "**/graphql": "14.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
